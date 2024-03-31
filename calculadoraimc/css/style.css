@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins' sans-serif;
+}
+
+body{
+    background-color:#46819C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   height: 100vh;
+}
+
+#container{
+display: flex;
+align-items: center;
+gap: 3.5rem;
+}
+
+img{
+   width: 25rem; 
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: #1a1a17;
+    background: #a9c9f7;
+    border-radius: 8px;
+}
+
+#titel{
+    font-size: 25rem;
+}
+
+.input-box label{
+    font-size:1.1rem ;
+    font-weight: 500;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:#5e9ffa;
+}
+
+.input-field input{
+    background-color: transparent;
+    border:none;
+    width: 100%;
+    font-size: 1.3rem;
+    color:#fafafc;
+    padding: 0.0.5rem;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    background-color: #46819C;
+}
+
+button:hover{
+    background-color: #5e9ffa;
+}
